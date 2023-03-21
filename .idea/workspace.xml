@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fe80f5a-8eea-4577-a241-6e1e9ac9aba2" name="Changes" comment="Create services' classes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CertidaoCasamentoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CertidaoImovelServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CertidaoObitoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/ServiceFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoCasamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoCasamentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoImovelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoImovelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoNascimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoNascimentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoObitoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoObitoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/ServiceFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
