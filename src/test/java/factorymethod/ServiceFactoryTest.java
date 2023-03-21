@@ -18,7 +18,7 @@ public class ServiceFactoryTest {
         @Test
         void deveRetornarExcecaoParaServicoInvalido() {
             try {
-                IService service = ServiceFactory.getService("CertidaoNascimento");
+                IService service = ServiceFactory.getService("CertidaoNegativaService");
                 fail();
             } catch (IllegalArgumentException e) {
                 assertEquals("Serviço inválido", e.getMessage());
