@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fe80f5a-8eea-4577-a241-6e1e9ac9aba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoCasamentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoImovelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoNascimentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoObitoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryMethod/ServiceFactory.java" afterDir="false" />
+    <list default="true" id="4fe80f5a-8eea-4577-a241-6e1e9ac9aba2" name="Changes" comment="Create services' classes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CertidaoCasamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CertidaoImovelServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CertidaoObitoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/ServiceFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoCasamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoCasamentoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoImovelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoImovelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoNascimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoNascimentoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/CertidaoObitoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CertidaoObitoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryMethod/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorymethod/ServiceFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,92 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CertidaoNascimentoServiceTest">
+    <configuration name="CertidaoCasamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LP5-FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.CertidaoCasamentoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CertidaoImovelServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LP5-FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.CertidaoImovelServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CertidaoNascimentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LP5-FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.CertidaoNascimentoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CertidaoObitoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LP5-FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.CertidaoObitoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LP5-FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.ServiceFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CertidaoNascimentoServiceTest" />
+        <item itemvalue="JUnit.CertidaoObitoServiceTest" />
+        <item itemvalue="JUnit.CertidaoImovelServiceTest" />
+        <item itemvalue="JUnit.ServiceFactoryTest" />
+        <item itemvalue="JUnit.CertidaoCasamentoServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679351834113</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create services' classes">
+      <created>1679356158428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679356158428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +171,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create services' classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create services' classes" />
   </component>
 </project>

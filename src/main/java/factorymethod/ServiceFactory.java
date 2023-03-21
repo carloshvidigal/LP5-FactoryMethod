@@ -1,4 +1,4 @@
-package FactoryMethod;
+package factorymethod;
 
 public class ServiceFactory {
     public static IService getService (String service) {
@@ -6,7 +6,7 @@ public class ServiceFactory {
         Object object = null;
 
         try {
-            classRef = Class.forName("FactoryMethod." + service);
+            classRef = Class.forName("factorymethod." + service);
             object = classRef.newInstance();
         } catch (Exception ex) {
             throw new IllegalArgumentException("Serviço inexistente");

@@ -1,6 +1,6 @@
-package FactoryMethod;
+package factorymethod;
 
-public class CertidaoImovelService implements IService{
+public class CertidaoCasamentoService implements IService{
 
     public String registrarCertidao() {
         return "Certidão de Casamento registrada";
